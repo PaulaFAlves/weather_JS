@@ -37,8 +37,6 @@ function displayResults(weather) {
 
 	let min_max = document.querySelector('.min_max');
 	min_max.innerText = `${Math.round(weather.main.temp_min)}˚c / ${Math.round(weather.main.temp_max)}˚c`;
-
-
 }
 
 function dateBuilder(d) {
